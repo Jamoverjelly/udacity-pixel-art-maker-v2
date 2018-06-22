@@ -18,8 +18,8 @@ function colorSelection() {
 
 // Create interactive canvas grid
 function makeGrid(event) {    
-    // Add call to clearCanvas function
-    clearCanvas();
+    // one-line method suggested by Abhishek K on Udacity's Knowledge Q&A forums
+    canvas.innerHTML = '';
     // Select size input
     const row = parseInt(document.querySelector("#inputHeight").value);
     const col = parseInt(document.querySelector("#inputWidth").value);
@@ -36,13 +36,6 @@ function makeGrid(event) {
             event.target.style.backgroundColor = colorSelection();
         }
     });
-}
-
-function clearCanvas() {
-    let tblTarget = document.getElementById("pixelCanvas");
-    while (tblTarget.tBodies[0].hasChildNodes()) {
-        tblTarget.tBodies[0].removeChild(tblTarget.tBodies[0].lastChild);
-    }
 }
 
 // ======= Attribution =======
