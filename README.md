@@ -6,7 +6,7 @@ This lab will be completed as part of my Front-End Nanodegree with Udacity. The 
 
 ## Viewing the Project Online
 
-A deployed web page for this project is available [here](https://jamoverjelly.github.io/udacity-pixel-art-maker-v2/index.html) through GitHub pages.
+A deployed web page for this project is available [here](https://jamoverjelly.github.io/udacity-pixel-art-maker-v2/) through GitHub pages.
 
 ## Requirements
 
